@@ -1,0 +1,13 @@
+{
+  "appId": "com.xintongzhilian.app",
+  "appName": "信通智联",
+  "webDir": "www",
+  "server": {
+    "url": "https://qiangshu-class.app.workbuddy.host/?sharecode=N34S32QTSC",
+    "hostname": "qiangshu-class.app.workbuddy.host",
+    "androidScheme": "https"
+  },
+  "android": {
+    "allowMixedContent": false
+  }
+}

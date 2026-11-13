@@ -16,6 +16,15 @@ jobs:
           distribution: temurin
           java-version: '21'
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install deps & sync Capacitor
+        run: |
+          npm ci
+          npx cap sync android
+
       - name: Build debug APK
         working-directory: android
         run: |
